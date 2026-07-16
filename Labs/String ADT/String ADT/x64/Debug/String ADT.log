@@ -1,4 +1,0 @@
-﻿  main.cpp
-String.obj : error LNK2005: "class std::basic_istream<char,struct std::char_traits<char> > & __cdecl operator>>(class std::basic_istream<char,struct std::char_traits<char> > &,class String &)" (??5@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@AEAV01@AEAVString@@@Z) already defined in main.obj
-String.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class String &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEAVString@@@Z) already defined in main.obj
-D:\Academics\Semester 2\OOP Code\Assest Classes\String ADT\x64\Debug\String ADT.exe : fatal error LNK1169: one or more multiply defined symbols found

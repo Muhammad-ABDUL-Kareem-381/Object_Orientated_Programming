@@ -1,0 +1,41 @@
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+x86/
+
+# Build output
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+
+# Visual Studio user files
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# IntelliSense
+*.ipch
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Temporary files
+*.tmp
+*.cache
+
