@@ -1,0 +1,6 @@
+﻿  BigNumber.cpp
+D:\Academics\Semester 2\OOP Code\Assest Classes\BigNumber.ADT\BigNumber.ADT\BigNumber.cpp(256,34): warning C4311: 'type cast': pointer truncation from 'const char *' to 'int'
+D:\Academics\Semester 2\OOP Code\Assest Classes\BigNumber.ADT\BigNumber.ADT\BigNumber.cpp(256,34): warning C4302: 'type cast': truncation from 'const char *' to 'int'
+D:\Academics\Semester 2\OOP Code\Assest Classes\BigNumber.ADT\BigNumber.ADT\BigNumber.cpp(256,6): warning C4311: 'type cast': pointer truncation from 'char *' to 'int'
+D:\Academics\Semester 2\OOP Code\Assest Classes\BigNumber.ADT\BigNumber.ADT\BigNumber.cpp(256,6): warning C4302: 'type cast': truncation from 'char *' to 'int'
+LINK : fatal error LNK1168: cannot open D:\Academics\Semester 2\OOP Code\Assest Classes\BigNumber.ADT\BigNumber.ADT\x64\Debug\BigNumber.ADT.exe for writing
