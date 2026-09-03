@@ -1,0 +1,446 @@
+[33ma488090[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Add OOP coursework, labs, notes, and projects
+ .gitattributes                                     |   6 [32m+[m
+ CC-112 - OOP-20241010T151834Z-001.zip              |   3 [32m+[m
+ Course Outline/Course Outline.pdf                  |   3 [32m+[m
+ Labs/Lab 01/pic 1.jpg                              | Bin [31m0[m -> [32m107677[m bytes
+ Labs/Lab 01/pic 2.jpg                              | Bin [31m0[m -> [32m111323[m bytes
+ Labs/Lab 01/pic 3.jpg                              | Bin [31m0[m -> [32m113523[m bytes
+ Labs/Lab 02/pic 1.jpg                              | Bin [31m0[m -> [32m704211[m bytes
+ Labs/Lab 02/pic 2.jpg                              | Bin [31m0[m -> [32m667349[m bytes
+ Labs/Lab 02/pic 3.jpg                              | Bin [31m0[m -> [32m549295[m bytes
+ Labs/Lab 02/pic 4.jpg                              | Bin [31m0[m -> [32m644694[m bytes
+ Labs/Lab 03/pic 1.jpg                              | Bin [31m0[m -> [32m194312[m bytes
+ Labs/Lab 03/pic 2.jpg                              | Bin [31m0[m -> [32m155375[m bytes
+ Labs/Lab 04/pic 1.jpg                              | Bin [31m0[m -> [32m194312[m bytes
+ Labs/Lab 04/pic 2.jpg                              | Bin [31m0[m -> [32m155375[m bytes
+ Labs/Lab 1/Project14/Project14.sln                 |  31 [32m+[m
+ Labs/Lab 1/Project14/Project14/Die.cpp             |  58 [32m++[m
+ Labs/Lab 1/Project14/Project14/Project14.vcxproj   | 135 [32m++++[m
+ .../Project14/Project14/Project14.vcxproj.filters  |  22 [32m+[m
+ Labs/Lab 1/Project15/Project15.sln                 |  31 [32m+[m
+ Labs/Lab 1/Project15/Project15/Project15.vcxproj   | 135 [32m++++[m
+ .../Project15/Project15/Project15.vcxproj.filters  |  22 [32m+[m
+ Labs/Lab 1/Project15/Project15/RomanNumeral.cpp    | 228 [32m++++++[m
+ Labs/Lab 1/Task 1/Dice class/Dice class.sln        |  31 [32m+[m
+ Labs/Lab 1/Task 1/Dice class/Dice class.vcxproj    | 135 [32m++++[m
+ .../Task 1/Dice class/Dice class.vcxproj.filters   |  22 [32m+[m
+ Labs/Lab 1/Task 1/Dice class/Source.cpp            |  46 [32m++[m
+ .../RomanNumeral/RomanNumeral.sln                  |  31 [32m+[m
+ .../RomanNumeral/RomanNumeral.vcxproj              | 135 [32m++++[m
+ .../RomanNumeral/RomanNumeral.vcxproj.filters      |  22 [32m+[m
+ .../RomanNumeral class/RomanNumeral/Source.cpp     | 158 [32m++++[m
+ Labs/Lab 10/Document/Document/Document.cpp         |  29 [32m+[m
+ Labs/Lab 10/Document/Document/Document.h           |  15 [32m+[m
+ Labs/Lab 10/Document/Document/Document.sln         |  31 [32m+[m
+ Labs/Lab 10/Document/Document/Document.vcxproj     | 147 [32m++++[m
+ .../Document/Document/Document.vcxproj.filters     |  54 [32m++[m
+ Labs/Lab 10/Document/Document/Email.cpp            |  48 [32m++[m
+ Labs/Lab 10/Document/Document/Email.h              |  22 [32m+[m
+ Labs/Lab 10/Document/Document/File.cpp             |  35 [32m+[m
+ Labs/Lab 10/Document/Document/File.h               |  19 [32m+[m
+ Labs/Lab 10/Document/Document/SearchRoutines.cpp   |  11 [32m+[m
+ Labs/Lab 10/Document/Document/SearchRoutines.h     |  10 [32m+[m
+ Labs/Lab 10/Document/Document/String.cpp           | 566 [32m+++++++++++++[m
+ Labs/Lab 10/Document/Document/String.h             |  55 [32m++[m
+ Labs/Lab 10/Document/Document/main.cpp             |  23 [32m+[m
+ Labs/Lab 11/Creature/Balrog.cpp                    |  15 [32m+[m
+ Labs/Lab 11/Creature/Balrog.h                      |  12 [32m+[m
+ Labs/Lab 11/Creature/Creature.cpp                  |  29 [32m+[m
+ Labs/Lab 11/Creature/Creature.h                    |  19 [32m+[m
+ Labs/Lab 11/Creature/Creature.sln                  |  31 [32m+[m
+ Labs/Lab 11/Creature/Creature.vcxproj              | 151 [32m++++[m
+ Labs/Lab 11/Creature/Creature.vcxproj.filters      |  66 [32m++[m
+ Labs/Lab 11/Creature/Cyberdemon.cpp                |  13 [32m+[m
+ Labs/Lab 11/Creature/Cyberdemon.h                  |  12 [32m+[m
+ Labs/Lab 11/Creature/Demon.cpp                     |  13 [32m+[m
+ Labs/Lab 11/Creature/Demon.h                       |  12 [32m+[m
+ Labs/Lab 11/Creature/Elf.cpp                       |  13 [32m+[m
+ Labs/Lab 11/Creature/Elf.h                         |  11 [32m+[m
+ Labs/Lab 11/Creature/Human.cpp                     |  14 [32m+[m
+ Labs/Lab 11/Creature/Human.h                       |  13 [32m+[m
+ Labs/Lab 11/Creature/String.cpp                    | 566 [32m+++++++++++++[m
+ Labs/Lab 11/Creature/String.h                      |  55 [32m++[m
+ Labs/Lab 11/Creature/main.cpp                      |  11 [32m+[m
+ .../Data Encryption/CaesarCipher.cpp               |  55 [32m++[m
+ .../Data Encryption/Data Encryption/CaesarCipher.h |  15 [32m+[m
+ .../Data Encryption/Data Encryption.sln            |  31 [32m+[m
+ .../Data Encryption/Data Encryption.vcxproj        | 144 [32m++++[m
+ .../Data Encryption.vcxproj.filters                |  45 [32m++[m
+ .../Data Encryption/Data Encryption/Encryptor.h    |  12 [32m+[m
+ .../Data Encryption/Data Encryption/String.cpp     | 532 [32m++++++++++++[m
+ .../Data Encryption/Data Encryption/String.h       |  66 [32m++[m
+ .../Data Encryption/VigenereCipher.cpp             |  71 [32m++[m
+ .../Data Encryption/VigenereCipher.h               |  18 [32m+[m
+ .../Data Encryption/Data Encryption/input file.txt |   0
+ .../Data Encryption/Data Encryption/main.cpp       |  69 [32m++[m
+ .../Data Encryption/output file.txt                |   0
+ .../Lab 13/Lab 13.sln                              |  31 [32m+[m
+ .../Lab 13/Lab 13.vcxproj                          | 135 [32m++++[m
+ .../Lab 13/Lab 13.vcxproj.filters                  |  22 [32m+[m
+ .../Lab 13/Lab 13/Lab 13.sln                       |  31 [32m+[m
+ .../Lab 13/Lab 13/Lab 13.vcxproj                   | 135 [32m++++[m
+ .../Lab 13/Lab 13/Lab 13.vcxproj.filters           |  22 [32m+[m
+ .../Lab 13/Lab 13/main.cpp                         | 439 [32m++++++++++[m
+ .../Lab 13/main.cpp                                | 261 [32m++++++[m
+ .../command line project/command line project.sln  |  31 [32m+[m
+ .../command line project.vcxproj                   | 135 [32m++++[m
+ .../command line project.vcxproj.filters           |  22 [32m+[m
+ Labs/Lab 14/command line project/main.cpp          |  10 [32m+[m
+ Labs/Lab 2/Matrix.ADT/Matrix.ADT.sln               |  31 [32m+[m
+ Labs/Lab 2/Matrix.ADT/Matrix.ADT.vcxproj           | 138 [32m++++[m
+ Labs/Lab 2/Matrix.ADT/Matrix.ADT.vcxproj.filters   |  27 [32m+[m
+ Labs/Lab 2/Matrix.ADT/Matrix.cpp                   | 225 [32m++++++[m
+ Labs/Lab 2/Matrix.ADT/Matrix.h                     |  33 [32m+[m
+ Labs/Lab 2/Matrix.ADT/String.cpp                   | 670 [32m+++++++++++++++[m
+ Labs/Lab 2/Matrix/Matrix.sln                       |  31 [32m+[m
+ Labs/Lab 2/Matrix/Matrix/Matrix.cpp                | 141 [32m++++[m
+ Labs/Lab 2/Matrix/Matrix/Matrix.vcxproj            | 135 [32m++++[m
+ Labs/Lab 2/Matrix/Matrix/Matrix.vcxproj.filters    |  22 [32m+[m
+ Labs/Lab 2/Task 1/oop lab 2 t 1.sln                |  31 [32m+[m
+ Labs/Lab 2/Task 1/oop lab 2 t 1/oop lab 2 t 1.cpp  |  94 [32m+++[m
+ .../Task 1/oop lab 2 t 1/oop lab 2 t 1.vcxproj     | 135 [32m++++[m
+ .../oop lab 2 t 1/oop lab 2 t 1.vcxproj.filters    |  22 [32m+[m
+ Labs/Lab 2/Task 2/oop lab 2 t 2.sln                |  31 [32m+[m
+ Labs/Lab 2/Task 2/oop lab 2 t 2/oop lab 2 t 2.cpp  | 102 [32m+++[m
+ .../Task 2/oop lab 2 t 2/oop lab 2 t 2.vcxproj     | 135 [32m++++[m
+ .../oop lab 2 t 2/oop lab 2 t 2.vcxproj.filters    |  22 [32m+[m
+ Labs/Lab 3/Watch.ADT/Watch.ADT/Watch.ADT.sln       |  31 [32m+[m
+ Labs/Lab 3/Watch.ADT/Watch.ADT/Watch.ADT.vcxproj   | 140 [32m++++[m
+ .../Watch.ADT/Watch.ADT/Watch.ADT.vcxproj.filters  |  37 [32m+[m
+ Labs/Lab 3/Watch.ADT/Watch.ADT/Watch.cpp           | 230 [32m++++++[m
+ Labs/Lab 3/Watch.ADT/Watch.ADT/Watch.h             |  45 [32m++[m
+ Labs/Lab 3/Watch.ADT/Watch.ADT/main.cpp            |  10 [32m+[m
+ Labs/Lab 4/String.ADT/String3.ADT/String.cpp       | 679 [32m++++++++++++++++[m
+ Labs/Lab 4/String.ADT/String3.ADT/String.h         |  69 [32m++[m
+ Labs/Lab 4/String.ADT/String3.ADT/String3.ADT.sln  |  31 [32m+[m
+ .../String.ADT/String3.ADT/String3.ADT.vcxproj     | 139 [32m++++[m
+ .../String3.ADT/String3.ADT.vcxproj.filters        |  30 [32m+[m
+ Labs/Lab 4/String.ADT/String3.ADT/main.cpp         |   5 [32m+[m
+ .../E-Commerce System/Customer.cpp                 | 138 [32m++++[m
+ .../E-Commerce System/E-Commerce System/Customer.h |  27 [32m+[m
+ .../E-Commerce System/E-Commerce System.sln        |  31 [32m+[m
+ .../E-Commerce System/E-Commerce System.vcxproj    | 144 [32m++++[m
+ .../E-Commerce System.vcxproj.filters              |  45 [32m++[m
+ .../E-Commerce System/E-Commerce System/User.cpp   |  45 [32m++[m
+ .../E-Commerce System/E-Commerce System/User.h     |  18 [32m+[m
+ .../E-Commerce System/E-Commerce System/Vendor.cpp | 134 [32m+++[m
+ .../E-Commerce System/E-Commerce System/Vendor.h   |  24 [32m+[m
+ .../E-Commerce System/E-Commerce System/main.cpp   |  16 [32m+[m
+ Labs/WhatsApp Image 2024-07-15 at 20.25.41.jpeg    | Bin [31m0[m -> [32m704211[m bytes
+ Notes/OOP Notes.pdf                                |   3 [32m+[m
+ Notes/pic 1.jpg                                    | Bin [31m0[m -> [32m132430[m bytes
+ Notes/pic 10.jpg                                   | Bin [31m0[m -> [32m78197[m bytes
+ Notes/pic 11.jpg                                   | Bin [31m0[m -> [32m63788[m bytes
+ Notes/pic 12.jpg                                   | Bin [31m0[m -> [32m87501[m bytes
+ Notes/pic 13.jpg                                   | Bin [31m0[m -> [32m106612[m bytes
+ Notes/pic 14.jpg                                   | Bin [31m0[m -> [32m104119[m bytes
+ Notes/pic 15.jpg                                   | Bin [31m0[m -> [32m115813[m bytes
+ Notes/pic 16.jpg                                   | Bin [31m0[m -> [32m101101[m bytes
+ Notes/pic 17.jpg                                   | Bin [31m0[m -> [32m95637[m bytes
+ Notes/pic 18.jpg                                   | Bin [31m0[m -> [32m108494[m bytes
+ Notes/pic 19.jpg                                   | Bin [31m0[m -> [32m100457[m bytes
+ Notes/pic 2.jpg                                    | Bin [31m0[m -> [32m152379[m bytes
+ Notes/pic 20.jpg                                   | Bin [31m0[m -> [32m123971[m bytes
+ Notes/pic 21.jpg                                   | Bin [31m0[m -> [32m122788[m bytes
+ Notes/pic 22.jpg                                   | Bin [31m0[m -> [32m106483[m bytes
+ Notes/pic 23.jpg                                   | Bin [31m0[m -> [32m94806[m bytes
+ Notes/pic 24.jpg                                   | Bin [31m0[m -> [32m105346[m bytes
+ Notes/pic 3.jpg                                    | Bin [31m0[m -> [32m139073[m bytes
+ Notes/pic 4.jpg                                    | Bin [31m0[m -> [32m136013[m bytes
+ Notes/pic 5.jpg                                    | Bin [31m0[m -> [32m134673[m bytes
+ Notes/pic 6.jpg                                    | Bin [31m0[m -> [32m110580[m bytes
+ Notes/pic 7.jpg                                    | Bin [31m0[m -> [32m128816[m bytes
+ Notes/pic 8.jpg                                    | Bin [31m0[m -> [32m138036[m bytes
+ Notes/pic 9.jpg                                    | Bin [31m0[m -> [32m96659[m bytes
+ Practice Codes/PF 10 (of OOP 1.0)/pic.jpg          | Bin [31m0[m -> [32m356617[m bytes
+ .../Task 01/Polymorphism/BattleShip.cpp            |  18 [32m+[m
+ .../Task 01/Polymorphism/BattleShip.h              |  13 [32m+[m
+ .../Task 01/Polymorphism/CargoShip.cpp             |  18 [32m+[m
+ .../Task 01/Polymorphism/CargoShip.h               |  13 [32m+[m
+ .../Task 01/Polymorphism/CruiseShip.cpp            |  19 [32m+[m
+ .../Task 01/Polymorphism/CruiseShip.h              |  14 [32m+[m
+ .../Task 01/Polymorphism/Driver.cpp                |  59 [32m++[m
+ .../Task 01/Polymorphism/Driver.h                  |  14 [32m+[m
+ .../Task 01/Polymorphism/Polymorphism.sln          |  31 [32m+[m
+ .../Task 01/Polymorphism/Polymorphism.vcxproj      | 148 [32m++++[m
+ .../Polymorphism/Polymorphism.vcxproj.filters      |  57 [32m++[m
+ .../Task 01/Polymorphism/Ship.cpp                  |  29 [32m+[m
+ .../Task 01/Polymorphism/Ship.h                    |  16 [32m+[m
+ .../Task 01/Polymorphism/main.cpp                  |   8 [32m+[m
+ .../Task 3/Banking System/BankAccount.cpp          |  35 [32m+[m
+ .../Task 3/Banking System/BankAccount.h            |  20 [32m+[m
+ .../Task 3/Banking System/Banking System.sln       |  31 [32m+[m
+ .../Task 3/Banking System/Banking System.vcxproj   | 146 [32m++++[m
+ .../Banking System/Banking System.vcxproj.filters  |  51 [32m++[m
+ .../Task 3/Banking System/DepositAccount.cpp       |  16 [32m+[m
+ .../Task 3/Banking System/DepositAccount.h         |  11 [32m+[m
+ .../Task 3/Banking System/LoanAccount.cpp          |  12 [32m+[m
+ .../Task 3/Banking System/LoanAccount.h            |  10 [32m+[m
+ .../Task 3/Banking System/MortgageAccount.cpp      |  19 [32m+[m
+ .../Task 3/Banking System/MortgageAccount.h        |  10 [32m+[m
+ .../Task 3/Banking System/main.cpp                 |  15 [32m+[m
+ .../Task Scheduler/Project1/Project1.sln           |  31 [32m+[m
+ .../Task Scheduler/Project1/Project1.vcxproj       | 147 [32m++++[m
+ .../Project1/Project1.vcxproj.filters              |  51 [32m++[m
+ .../Task Scheduler/Project1/Scheduler.cpp          |  92 [32m+++[m
+ .../Task Scheduler/Project1/Scheduler.h            |  23 [32m+[m
+ .../Task Scheduler/Project1/SchedulerApp.cpp       |   8 [32m+[m
+ .../Task Scheduler/Project1/SchedulerApp.h         |   9 [32m+[m
+ .../Task Scheduler/Project1/Task.cpp               |  31 [32m+[m
+ .../Task Scheduler/Project1/Task.h                 |  30 [32m+[m
+ .../Task Scheduler/Project1/main.cpp               |   7 [32m+[m
+ Practice Codes/PF 11(of OOP 1.0)/PF 11.pdf         |   3 [32m+[m
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0002.jpg   | Bin [31m0[m -> [32m103122[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0003.jpg   | Bin [31m0[m -> [32m120905[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0004.jpg   | Bin [31m0[m -> [32m111864[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0005.jpg   | Bin [31m0[m -> [32m97785[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0006.jpg   | Bin [31m0[m -> [32m66070[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0007.jpg   | Bin [31m0[m -> [32m83918[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0008.jpg   | Bin [31m0[m -> [32m99605[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0009.jpg   | Bin [31m0[m -> [32m66155[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0010.jpg   | Bin [31m0[m -> [32m78291[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0011.jpg   | Bin [31m0[m -> [32m90903[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0012.jpg   | Bin [31m0[m -> [32m77037[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0013.jpg   | Bin [31m0[m -> [32m120420[m bytes
+ .../PF 12 (of OOP SE 22)/IMG-20240823-WA0014.jpg   | Bin [31m0[m -> [32m92282[m bytes
+ Practice Codes/PF 16 (of PF) Set/Set/Set.sln       |  31 [32m+[m
+ Practice Codes/PF 16 (of PF) Set/Set/Set.vcxproj   | 135 [32m++++[m
+ .../PF 16 (of PF) Set/Set/Set.vcxproj.filters      |  22 [32m+[m
+ Practice Codes/PF 16 (of PF) Set/Set/maincpp.cpp   | 242 [32m++++++[m
+ .../MyString/MyString/MyString.cpp                 | 145 [32m++++[m
+ .../MyString/MyString/MyString.h                   |  16 [32m+[m
+ .../MyString/MyString/MyString.sln                 |  31 [32m+[m
+ .../MyString/MyString/MyString.vcxproj             | 138 [32m++++[m
+ .../MyString/MyString/MyString.vcxproj.filters     |  27 [32m+[m
+ .../Part A (Name struct)/FullName/FullName.sln     |  31 [32m+[m
+ .../Part A (Name struct)/FullName/FullName.vcxproj | 135 [32m++++[m
+ .../FullName/FullName.vcxproj.filters              |  22 [32m+[m
+ .../Task 1/Part A (Name struct)/FullName/main.cpp  | 104 [32m+++[m
+ .../WeatherStatistics Struct.sln                   |  31 [32m+[m
+ .../WeatherStatistics Struct.vcxproj               | 135 [32m++++[m
+ .../WeatherStatistics Struct.vcxproj.filters       |  22 [32m+[m
+ .../WeatherStatistics Struct/main.cpp              | 103 [32m+++[m
+ .../Task 2/Date struct/Date/Date.sln               |  31 [32m+[m
+ .../Task 2/Date struct/Date/Date.vcxproj           | 135 [32m++++[m
+ .../Task 2/Date struct/Date/Date.vcxproj.filters   |  22 [32m+[m
+ .../Task 2/Date struct/Date/main.cpp               | 187 [32m+++++[m
+ .../Task 3/Rational struct/Rational/Rational.sln   |  31 [32m+[m
+ .../Rational struct/Rational/Rational.vcxproj      | 135 [32m++++[m
+ .../Rational/Rational.vcxproj.filters              |  22 [32m+[m
+ .../Task 3/Rational struct/Rational/Source.cpp     | 102 [32m+++[m
+ .../Drink Machine Simulator.sln                    |  31 [32m+[m
+ .../Drink Machine Simulator.vcxproj                | 135 [32m++++[m
+ .../Drink Machine Simulator.vcxproj.filters        |  22 [32m+[m
+ .../Drink Machine Simulator/Source.cpp             |  91 [32m+++[m
+ Practice Codes/PF 2(of OOP 1.0)/pic1.jpg           | Bin [31m0[m -> [32m125472[m bytes
+ Practice Codes/PF 2(of OOP 1.0)/pic2.jpg           | Bin [31m0[m -> [32m122792[m bytes
+ Practice Codes/PF 2(of OOP 1.0)/pic3.jpg           | Bin [31m0[m -> [32m88055[m bytes
+ .../Student class/class/Source.cpp                 | 140 [32m++++[m
+ .../Student class/class/class.sln                  |  31 [32m+[m
+ .../Student class/class/class.vcxproj              | 136 [32m++++[m
+ .../Student class/class/class.vcxproj.filters      |  22 [32m+[m
+ Practice Codes/PF 4 (of OOP 1.0)/pic1.jpg          | Bin [31m0[m -> [32m561131[m bytes
+ .../Task 1/Rectangle class/Rectangle/Rectangle.sln |  31 [32m+[m
+ .../Rectangle class/Rectangle/Rectangle.vcxproj    | 135 [32m++++[m
+ .../Rectangle/Rectangle.vcxproj.filters            |  22 [32m+[m
+ .../Task 1/Rectangle class/Rectangle/Source.cpp    |  77 [32m++[m
+ .../Task 2/Time ADT/Time ADT/Time ADT.sln          |  31 [32m+[m
+ .../Task 2/Time ADT/Time ADT/Time ADT.vcxproj      | 139 [32m++++[m
+ .../Time ADT/Time ADT/Time ADT.vcxproj.filters     |  30 [32m+[m
+ .../Task 2/Time ADT/Time ADT/Time.cpp              | 189 [32m+++++[m
+ .../Task 2/Time ADT/Time ADT/Time.h                |  36 [32m+[m
+ .../Task 2/Time ADT/Time ADT/main.cpp              |   5 [32m+[m
+ Practice Codes/PF 4/Task 1/oop pf 4 t 01.txt       |  62 [32m++[m
+ Practice Codes/PF 6 (of OOP 1.0)/pic1.jpg          | Bin [31m0[m -> [32m582638[m bytes
+ Practice Codes/PF 6 (of OOP 1.0)/pic2.jpg          | Bin [31m0[m -> [32m616590[m bytes
+ .../Task 1/Array ADT/Array ADT/Array ADT.sln       |  31 [32m+[m
+ .../Task 1/Array ADT/Array ADT/Array ADT.vcxproj   | 139 [32m++++[m
+ .../Array ADT/Array ADT/Array ADT.vcxproj.filters  |  30 [32m+[m
+ .../Task 1/Array ADT/Array ADT/Array.cpp           | 191 [32m+++++[m
+ .../Task 1/Array ADT/Array ADT/Array.h             |  30 [32m+[m
+ .../Task 1/Array ADT/Array ADT/main.cpp            |   8 [32m+[m
+ .../Task 2/String ADT/String ADT/Source.cpp        | 398 [32m+++++++++[m
+ .../Task 2/String ADT/String ADT/String ADT.sln    |  31 [32m+[m
+ .../String ADT/String ADT/String ADT.vcxproj       | 135 [32m++++[m
+ .../String ADT/String ADT.vcxproj.filters          |  22 [32m+[m
+ Practice Codes/PF 8 ( of OOP 1.0)/pic 1.jpg        | Bin [31m0[m -> [32m129986[m bytes
+ Practice Codes/PF 8 ( of OOP 1.0)/pic2.jpg         | Bin [31m0[m -> [32m61547[m bytes
+ .../String.ADT/String2.ADT/String.cpp              | 667 [32m+++++++++++++++[m
+ .../String.ADT/String2.ADT/String.h                |  56 [32m++[m
+ .../String.ADT/String2.ADT/String2.ADT.sln         |  31 [32m+[m
+ .../String.ADT/String2.ADT/String2.ADT.vcxproj     | 139 [32m++++[m
+ .../String2.ADT/String2.ADT.vcxproj.filters        |  30 [32m+[m
+ .../String.ADT/String2.ADT/main.cpp                |  26 [32m+[m
+ Practice Codes/PF 9 (of OOP 1.0)/pic.jpg           | Bin [31m0[m -> [32m717563[m bytes
+ .../MyCMath Class/MyCMAth Class/MyCMAth Class.sln  |  31 [32m+[m
+ .../MyCMAth Class/MyCMAth Class.vcxproj            | 139 [32m++++[m
+ .../MyCMAth Class/MyCMAth Class.vcxproj.filters    |  30 [32m+[m
+ .../Task 1/MyCMath Class/MyCMAth Class/driver.cpp  |   0
+ .../Task 1/MyCMath Class/MyCMAth Class/myCMath.cpp |  36 [32m+[m
+ .../Task 1/MyCMath Class/MyCMAth Class/myCMath.h   |  14 [32m+[m
+ .../Task 2/Date.ADT/Date3.ADT/Date.cpp             | 274 [32m+++++++[m
+ .../Task 2/Date.ADT/Date3.ADT/Date.h               |  40 [32m+[m
+ .../Task 2/Date.ADT/Date3.ADT/Date3.ADT.sln        |  31 [32m+[m
+ .../Task 2/Date.ADT/Date3.ADT/Date3.ADT.vcxproj    | 140 [32m++++[m
+ .../Date.ADT/Date3.ADT/Date3.ADT.vcxproj.filters   |  33 [32m+[m
+ .../Task 2/Date.ADT/Date3.ADT/main.cpp             |   7 [32m+[m
+ .../ConsoleApplication1/ConsoleApplication1.sln    |  31 [32m+[m
+ .../ConsoleApplication1.vcxproj                    | 141 [32m++++[m
+ .../ConsoleApplication1.vcxproj.filters            |  36 [32m+[m
+ .../ConsoleApplication1/GameBoard.cpp              |  94 [32m+++[m
+ .../ConsoleApplication1/GameBoard.h                |  18 [32m+[m
+ .../ConsoleApplication1/TicTacToe.cpp              |  95 [32m+++[m
+ .../ConsoleApplication1/TicTacToeGameProject.h     |  15 [32m+[m
+ .../ConsoleApplication1/main.cpp                   |  10 [32m+[m
+ .../Tic tac toe bsef23m004.sln                     |  31 [32m+[m
+ .../Tic tac toe bsef23m004.vcxproj                 | 138 [32m++++[m
+ .../Tic tac toe bsef23m004.vcxproj.filters         |  17 [32m+[m
+ Practice Codes/Practice 10/Set Class/Set Class.sln |  31 [32m+[m
+ .../Practice 10/Set Class/Set Class/Array.cpp      | 198 [32m+++++[m
+ .../Practice 10/Set Class/Set Class/Array.h        |  30 [32m+[m
+ .../Practice 10/Set Class/Set Class/Main.cpp       |  12 [32m+[m
+ .../Set Class/Set Class/Set Class.vcxproj          | 141 [32m++++[m
+ .../Set Class/Set Class/Set Class.vcxproj.filters  |  36 [32m+[m
+ .../Practice 10/Set Class/Set Class/Set.cpp        | 283 [32m+++++++[m
+ .../Practice 10/Set Class/Set Class/Set.h          |  36 [32m+[m
+ Practice Codes/Practice 2/Task 1 A/Task 1 A.sln    |  31 [32m+[m
+ .../Practice 2/Task 1 A/Task 1 A/Main.cpp          |  33 [32m+[m
+ .../Practice 2/Task 1 A/Task 1 A/Task 1 A.vcxproj  | 135 [32m++++[m
+ .../Task 1 A/Task 1 A/Task 1 A.vcxproj.filters     |  22 [32m+[m
+ Practice Codes/Practice 2/Task 1 B/Task 1 B.sln    |  31 [32m+[m
+ .../Practice 2/Task 1 B/Task 1 B/Main.cpp          |  54 [32m++[m
+ .../Practice 2/Task 1 B/Task 1 B/Task 1 B.vcxproj  | 135 [32m++++[m
+ .../Task 1 B/Task 1 B/Task 1 B.vcxproj.filters     |  22 [32m+[m
+ Practice Codes/Practice 2/Task 1 C/Task 1 C.sln    |  31 [32m+[m
+ .../Practice 2/Task 1 C/Task 1 C/Main.cpp          |  21 [32m+[m
+ .../Practice 2/Task 1 C/Task 1 C/Task 1 C.vcxproj  | 135 [32m++++[m
+ .../Task 1 C/Task 1 C/Task 1 C.vcxproj.filters     |  22 [32m+[m
+ Practice Codes/Practice 2/Task 2/Task 2.sln        |  31 [32m+[m
+ Practice Codes/Practice 2/Task 2/Task 2/Main.cpp   | 104 [32m+++[m
+ Practice Codes/Practice 2/Task 2/Task 2/String.cpp | 898 [32m+++++++++++++++++++++[m
+ Practice Codes/Practice 2/Task 2/Task 2/String.h   |  75 [32m++[m
+ .../Practice 2/Task 2/Task 2/Task 2.vcxproj        | 135 [32m++++[m
+ .../Task 2/Task 2/Task 2.vcxproj.filters           |  22 [32m+[m
+ Practice Codes/Practice 2/Task 3/Task 3.sln        |  31 [32m+[m
+ Practice Codes/Practice 2/Task 3/Task 3/Main.cpp   |  98 [32m+++[m
+ .../Practice 2/Task 3/Task 3/Task 3.vcxproj        | 135 [32m++++[m
+ .../Task 3/Task 3/Task 3.vcxproj.filters           |  22 [32m+[m
+ Practice Codes/Practice 2/Task 4/Task 4.sln        |  31 [32m+[m
+ Practice Codes/Practice 2/Task 4/Task 4/Main.cpp   |  23 [32m+[m
+ .../Practice 2/Task 4/Task 4/Task 4.vcxproj        | 135 [32m++++[m
+ .../Task 4/Task 4/Task 4.vcxproj.filters           |  22 [32m+[m
+ Practice Codes/Practice 2/Task 5/Task 5.sln        |  31 [32m+[m
+ Practice Codes/Practice 2/Task 5/Task 5/Main.cpp   |  97 [32m+++[m
+ .../Practice 2/Task 5/Task 5/Task 5.vcxproj        | 135 [32m++++[m
+ .../Task 5/Task 5/Task 5.vcxproj.filters           |  22 [32m+[m
+ Practice Codes/Practice 4/Task 1/Task 1.sln        |  31 [32m+[m
+ Practice Codes/Practice 4/Task 1/Task 1/Main.cpp   |  62 [32m++[m
+ .../Practice 4/Task 1/Task 1/Task 1.vcxproj        | 135 [32m++++[m
+ .../Task 1/Task 1/Task 1.vcxproj.filters           |  22 [32m+[m
+ Practice Codes/Practice 4/Task 2/Task 2.sln        |  31 [32m+[m
+ Practice Codes/Practice 4/Task 2/Task 2/Main.cpp   | 129 [32m+++[m
+ .../Practice 4/Task 2/Task 2/Task 2.vcxproj        | 135 [32m++++[m
+ .../Task 2/Task 2/Task 2.vcxproj.filters           |  22 [32m+[m
+ Practice Codes/Practice 4/Task 3/Task 3.sln        |  31 [32m+[m
+ Practice Codes/Practice 4/Task 3/Task 3/Main.cpp   | 117 [32m+++[m
+ .../Practice 4/Task 3/Task 3/Task 3.vcxproj        | 135 [32m++++[m
+ .../Task 3/Task 3/Task 3.vcxproj.filters           |  22 [32m+[m
+ Practice Codes/Practice 6/Array/Task 1.sln         |  31 [32m+[m
+ Practice Codes/Practice 6/Array/Task 1/Array.cpp   | 176 [32m++++[m
+ .../Practice 6/Array/Task 1/Task 1.vcxproj         | 135 [32m++++[m
+ .../Practice 6/Array/Task 1/Task 1.vcxproj.filters |  22 [32m+[m
+ Practice Codes/Practice 6/Task 2/Task 2.sln        |  31 [32m+[m
+ Practice Codes/Practice 6/Task 2/Task 2/String.cpp | 426 [32m++++++++++[m
+ .../Practice 6/Task 2/Task 2/Task 2.vcxproj        | 135 [32m++++[m
+ .../Task 2/Task 2/Task 2.vcxproj.filters           |  22 [32m+[m
+ Practice Codes/Practice 8/Task 1/Task 1.sln        |  31 [32m+[m
+ Practice Codes/Practice 8/Task 1/Task 1/String.cpp | 668 [32m+++++++++++++++[m
+ .../Practice 8/Task 1/Task 1/Task 1.vcxproj        | 135 [32m++++[m
+ .../Task 1/Task 1/Task 1.vcxproj.filters           |  22 [32m+[m
+ Practice Codes/Practice 9/CMath/Task 1.sln         |  31 [32m+[m
+ Practice Codes/Practice 9/CMath/Task 1/CMath.cpp   |  71 [32m++[m
+ Practice Codes/Practice 9/CMath/Task 1/String.cpp  | 894 [32m++++++++++++++++++++[m
+ Practice Codes/Practice 9/CMath/Task 1/String.h    |  75 [32m++[m
+ .../Practice 9/CMath/Task 1/StringFunctions.cpp    |  69 [32m++[m
+ .../Practice 9/CMath/Task 1/StringFunctions.h      |  12 [32m+[m
+ .../Practice 9/CMath/Task 1/Task 1.vcxproj         | 139 [32m++++[m
+ .../Practice 9/CMath/Task 1/Task 1.vcxproj.filters |  30 [32m+[m
+ Practice Codes/Practice 9/CMath/Task 1/main.cpp    |  12 [32m+[m
+ Practice Codes/Practice 9/Date/Date.sln            |  31 [32m+[m
+ Practice Codes/Practice 9/Date/Date/Date.cpp       | 298 [32m+++++++[m
+ Practice Codes/Practice 9/Date/Date/Date.vcxproj   | 139 [32m++++[m
+ .../Practice 9/Date/Date/Date.vcxproj.filters      |  30 [32m+[m
+ Practice Codes/Practice 9/Date/Date/String.cpp     | 894 [32m++++++++++++++++++++[m
+ Practice Codes/Practice 9/Date/Date/String.h       |  75 [32m++[m
+ Projects/Project1/Project1.sln                     |  31 [32m+[m
+ Projects/Project1/Project1/BigNumber.cpp           | 219 [32m+++++[m
+ Projects/Project1/Project1/BigNumber.h             |  25 [32m+[m
+ Projects/Project1/Project1/Math.cpp                |  22 [32m+[m
+ Projects/Project1/Project1/Math.h                  |   8 [32m+[m
+ Projects/Project1/Project1/Project1.aps            | Bin [31m0[m -> [32m1328[m bytes
+ Projects/Project1/Project1/Project1.rc             | Bin [31m0[m -> [32m2668[m bytes
+ Projects/Project1/Project1/Project1.vcxproj        | 135 [32m++++[m
+ .../Project1/Project1/Project1.vcxproj.filters     |  22 [32m+[m
+ Projects/Project1/Project1/main.cpp                |  29 [32m+[m
+ Projects/Project1/Project1/resource.h              |  14 [32m+[m
+ Projects/Project12/Project12.sln                   |  31 [32m+[m
+ Projects/Project12/Project12/CaesarCipher.cpp      |  77 [32m++[m
+ Projects/Project12/Project12/CaesarCipher.h        |  18 [32m+[m
+ Projects/Project12/Project12/Encryptor.h           |  12 [32m+[m
+ Projects/Project12/Project12/Main.cpp              |  48 [32m++[m
+ Projects/Project12/Project12/Project12.vcxproj     | 146 [32m++++[m
+ .../Project12/Project12/Project12.vcxproj.filters  |  51 [32m++[m
+ Projects/Project12/Project12/String.cpp            | 852 [32m+++++++++++++++++++[m
+ Projects/Project12/Project12/String.h              |  78 [32m++[m
+ Projects/Project12/Project12/StringFunctions.cpp   |  69 [32m++[m
+ Projects/Project12/Project12/StringFunctions.h     |  12 [32m+[m
+ Projects/Project12/Project12/VigenereCipher.cpp    |  91 [32m+++[m
+ Projects/Project12/Project12/VigenereCipher.h      |  16 [32m+[m
+ Projects/Project12/Project12/decrypt.txt           |   0
+ Projects/Project12/Project12/encrypt.txt           |   1 [32m+[m
+ Projects/Project13/Project13.sln                   |  31 [32m+[m
+ Projects/Project13/Project13/CaesarCipher.cpp      |  77 [32m++[m
+ Projects/Project13/Project13/CaesarCipher.h        |  18 [32m+[m
+ Projects/Project13/Project13/Encryptor.h           |  12 [32m+[m
+ Projects/Project13/Project13/Main.cpp              |  46 [32m++[m
+ Projects/Project13/Project13/Project13.vcxproj     | 146 [32m++++[m
+ .../Project13/Project13/Project13.vcxproj.filters  |  51 [32m++[m
+ Projects/Project13/Project13/String.cpp            | 852 [32m+++++++++++++++++++[m
+ Projects/Project13/Project13/String.h              |  78 [32m++[m
+ Projects/Project13/Project13/StringFunctions.cpp   |  69 [32m++[m
+ Projects/Project13/Project13/StringFunctions.h     |  12 [32m+[m
+ Projects/Project13/Project13/VigenereCipher.cpp    |  91 [32m+++[m
+ Projects/Project13/Project13/VigenereCipher.h      |  16 [32m+[m
+ Projects/Project13/Project13/decrypt.txt           |   0
+ Projects/Project13/Project13/encrypt.txt           |   1 [32m+[m
+ Projects/Project5/Project5.sln                     |  31 [32m+[m
+ Projects/Project5/Project5/Course.cpp              |  25 [32m+[m
+ Projects/Project5/Project5/Course.h                |  16 [32m+[m
+ Projects/Project5/Project5/Main.cpp                |   6 [32m+[m
+ Projects/Project5/Project5/OfferedCourses.cpp      |   5 [32m+[m
+ Projects/Project5/Project5/OfferedCourses.h        |  16 [32m+[m
+ Projects/Project5/Project5/Project5.vcxproj        | 147 [32m++++[m
+ .../Project5/Project5/Project5.vcxproj.filters     |  54 [32m++[m
+ Projects/Project5/Project5/String.cpp              | 741 [32m+++++++++++++++++[m
+ Projects/Project5/Project5/String.h                |  65 [32m++[m
+ Projects/Project5/Project5/StringFunctions.cpp     |  69 [32m++[m
+ Projects/Project5/Project5/StringFunctions.h       |  12 [32m+[m
+ Projects/Project5/Project5/Student.cpp             |   0
+ Projects/Project5/Project5/Student.h               |  19 [32m+[m
+ Projects/Project9/Project9.sln                     |  31 [32m+[m
+ Projects/Project9/Project9/Creature.cpp            |  32 [32m+[m
+ Projects/Project9/Project9/Creature.h              |  19 [32m+[m
+ Projects/Project9/Project9/Demon.h                 |  16 [32m+[m
+ Projects/Project9/Project9/Elf.cpp                 |  36 [32m+[m
+ Projects/Project9/Project9/Elf.h                   |  15 [32m+[m
+ Projects/Project9/Project9/Human.cpp               |  31 [32m+[m
+ Projects/Project9/Project9/Human.h                 |  15 [32m+[m
+ Projects/Project9/Project9/Project9.vcxproj        | 148 [32m++++[m
+ .../Project9/Project9/Project9.vcxproj.filters     |  57 [32m++[m
+ Projects/Project9/Project9/Source.cpp              |   6 [32m+[m
+ Projects/Project9/Project9/String.cpp              | 838 [32m+++++++++++++++++++[m
+ Projects/Project9/Project9/String.h                |  76 [32m++[m
+ Projects/Project9/Project9/StringFunctions.cpp     |  69 [32m++[m
+ Projects/Project9/Project9/StringFunctions.h       |  12 [32m+[m
+ Projects/Project9/Project9/main.cpp                |  13 [32m+[m
+ 444 files changed, 32952 insertions(+)
